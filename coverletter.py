@@ -1,5 +1,3 @@
-
-import pandas as pd
 from docx import Document
 
 def cover_letter(industry: str, company: str, role: str, special_quality = ''):
@@ -44,10 +42,6 @@ def cover_letter(industry: str, company: str, role: str, special_quality = ''):
 
 
     
-
-
-cover_letter('finance', 'Pinterest', "Machine Learning Engineer")
-
 
  
 
